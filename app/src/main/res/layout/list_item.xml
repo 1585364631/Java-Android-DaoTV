@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/video_image"
+                android:layout_width="223px"
+                android:layout_height="296px"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:src="@drawable/bg1"
+                ></ImageView>
+
+            <TextView
+                android:id="@+id/video_number"
+                android:layout_width="35dp"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:background="#FF0000"
+                android:text="9.9"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="@id/video_image"
+                app:layout_constraintTop_toTopOf="@id/video_image"></TextView>
+
+            <CheckBox
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:button="@null"
+                android:id="@+id/select_delete"
+                android:visibility="invisible"
+                android:background="@drawable/checkbox_style"
+                app:layout_constraintRight_toRightOf="@+id/video_image"
+                app:layout_constraintTop_toTopOf="@+id/video_image"
+                ></CheckBox>
+            <!--            android:text="9.9"-->
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/video_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="流浪地球"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/video_small_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="流浪地球"
+            android:maxLines="2"
+            android:textColor="#E91E63"
+            ></TextView>
+
+
+
+
+</LinearLayout>

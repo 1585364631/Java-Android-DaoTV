@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.Fragment_list">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="15dp"
+                android:id="@+id/all_select"
+                android:background="@drawable/butt"
+                android:gravity="center"
+                android:text="全选"
+                android:layout_marginLeft="15dp"></Button>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:id="@+id/text_select"
+                android:text="历史记录"
+                android:maxLines="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold"></TextView>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:id="@+id/delete_select"
+                android:text="删除"
+                android:textColor="#FF0000"
+                android:background="@drawable/butt"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginRight="15dp"></Button>
+
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/select_list"
+            android:layout_weight="10"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

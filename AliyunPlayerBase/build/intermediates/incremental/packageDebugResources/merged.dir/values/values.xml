@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alivc_player_theme_blue">#379DF2</color>
+    <color name="alivc_player_theme_green">#57AB44</color>
+    <color name="alivc_player_theme_orange">#EE7C33</color>
+    <color name="alivc_player_theme_red">#E94033</color>
+    <dimen name="alivc_palyer_dialog_loading_width">200dp</dimen>
+    <dimen name="alivc_player_dialog_err_height">120dp</dimen>
+    <dimen name="alivc_player_dialog_err_width">220dp</dimen>
+    <dimen name="alivc_player_dialog_loading_height">200dp</dimen>
+    <dimen name="alivc_player_dialog_netchange_height">120dp</dimen>
+    <dimen name="alivc_player_dialog_netchange_width">280dp</dimen>
+    <dimen name="alivc_player_loading_height">120dp</dimen>
+    <dimen name="alivc_player_loading_width">130dp</dimen>
+    <string name="alivc_alivc_replay_msg">Video ended</string>
+    <string name="alivc_base_version">SDK VERSION INFO</string>
+    <string name="alivc_error_code">Error code:</string>
+    <string name="alivc_error_msg">Error message</string>
+    <string name="alivc_loading">Loading...</string>
+    <string name="alivc_net_state_mobile">The current network is cell-network, whether to continue?</string>
+    <string name="alivc_net_state_mobile_no">Exit</string>
+    <string name="alivc_net_state_mobile_yes">Resume</string>
+    <string name="alivc_operator_play">Autoplay on Provider Network</string>
+    <string name="alivc_replay">Replay</string>
+    <string name="alivc_retry">Retry</string>
+</resources>

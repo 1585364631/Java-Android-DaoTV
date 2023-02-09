@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aliyun.vodplayer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:5:5-79
+11-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:6:5-76
+12-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:7:5-67
+13-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:8:5-81
+14-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.WAKE_LOCK" />
+15-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:9:5-68
+15-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:9:22-65
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:10:5-75
+16-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:10:22-72
+17    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+17-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:11:5-73
+17-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:11:22-70
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:12:5-80
+18-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:12:22-77
+19    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+19-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:13:5-86
+19-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:13:22-83
+20
+21    <application
+21-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:15:5-56:19
+22        android:allowBackup="true"
+22-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:16:9-35
+23        android:supportsRtl="true" >
+23-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:17:9-35
+24        <activity
+24-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:18:9-23:66
+25            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity"
+25-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:19:13-86
+26            android:configChanges="orientation|keyboardHidden|screenSize"
+26-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:20:13-74
+27            android:launchMode="singleTop"
+27-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:22:13-43
+28            android:screenOrientation="portrait"
+28-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:21:13-49
+29            android:theme="@style/Theme.AppCompat.NoActionBar" />
+29-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:23:13-63
+30        <activity
+30-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:24:9-29:66
+31            android:name="com.aliyun.player.aliyunplayerbase.activity.SdkVersionActivity"
+31-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:25:13-90
+32            android:configChanges="orientation|keyboardHidden|screenSize"
+32-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:26:13-74
+33            android:launchMode="singleTop"
+33-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:27:13-43
+34            android:screenOrientation="portrait"
+34-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:28:13-49
+35            android:theme="@style/Theme.AppCompat.NoActionBar" />
+35-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:29:13-63
+36        <activity
+36-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:30:9-35:66
+37            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerSettingActivity"
+37-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:31:13-89
+38            android:configChanges="orientation|keyboardHidden|screenSize"
+38-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:32:13-74
+39            android:launchMode="singleTop"
+39-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:33:13-43
+40            android:screenOrientation="portrait"
+40-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:34:13-49
+41            android:theme="@style/Theme.AppCompat.NoActionBar" />
+41-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:35:13-63
+42        <activity
+42-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:36:9-41:66
+43            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerConfigActivity"
+43-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:37:13-88
+44            android:configChanges="orientation|keyboardHidden|screenSize"
+44-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:38:13-74
+45            android:launchMode="singleTop"
+45-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:39:13-43
+46            android:screenOrientation="portrait"
+46-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:40:13-49
+47            android:theme="@style/Theme.AppCompat.NoActionBar" />
+47-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:41:13-63
+48        <activity
+48-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:42:9-46:65
+49            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerTypeEditActivity"
+49-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:42:19-96
+50            android:configChanges="orientation|keyboardHidden|screenSize"
+50-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:43:13-74
+51            android:launchMode="singleTop"
+51-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:44:13-43
+52            android:screenOrientation="portrait"
+52-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:45:13-49
+53            android:theme="@style/Theme.AppCompat.NoActionBar" />
+53-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:46:13-63
+54        <activity
+54-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:47:9-51:65
+55            android:name="com.aliyun.vodplayerview.activity.AliyunPlayerDownloadListActivity"
+55-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:47:19-100
+56            android:configChanges="orientation|keyboardHidden|screenSize"
+56-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:48:13-74
+57            android:launchMode="singleTop"
+57-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:49:13-43
+58            android:screenOrientation="portrait"
+58-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:50:13-49
+59            android:theme="@style/Theme.AppCompat.NoActionBar" />
+59-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:51:13-63
+60
+61        <service
+61-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:53:9-55:40
+62            android:name="com.aliyun.vodplayerview.view.dlna.service.ClingUpnpService"
+62-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:54:13-87
+63            android:exported="false" />
+63-->E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:55:13-37
+64    </application>
+65
+66</manifest>

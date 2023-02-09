@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A29986"
+    tools:context=".video_list_player">
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="678dp"
+        android:background="@drawable/shape_radius"
+        app:layout_constraintBottom_toBottomOf="parent"></TextView>
+
+
+    <TextView
+        android:id="@+id/video_list_player_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="乾坤框架"
+        android:textColor="#000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:background="#2196F3"
+        ></TextView>
+    
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="206dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/video_list_player_img"
+        android:src="@drawable/logo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_title"></ImageView>
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFFFFF"
+        android:text="九天荡魔祖师"
+        android:id="@+id/video_list_player_name"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_img"
+        app:layout_constraintTop_toBottomOf="@id/video_list_player_title"></TextView>
+    <!--        android:gravity="center_vertical|left"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:textColor="#F41313"
+        android:layout_marginLeft="10dp"
+        android:text="10.0"
+        android:maxLines="1"
+        android:id="@+id/video_list_player_number"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_img"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_name"
+        ></TextView>
+
+
+    <ProgressBar
+        android:id="@+id/video_list_player_progress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:progressDrawable="@drawable/progress"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:max="100"
+        android:progress="100"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_number"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_name"></ProgressBar>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_list_player_year"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_img"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_number"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="2021"
+        android:maxLines="1"
+        android:layout_marginLeft="10dp"
+        android:paddingRight="10dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_list_player_class"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_year"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_number"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:maxLines="1"
+        android:text="大陆"
+        android:paddingRight="10dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_list_player_area"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_class"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_number"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="内地"
+        android:maxLines="1"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_list_player_status"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_img"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_year"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:maxLines="1"
+        android:text="状态:"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_list_player_remarks"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_status"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_year"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:maxLines="1"
+        android:text="共18集"
+        android:paddingLeft="5dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_list_player_time"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_remarks"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_year"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:maxLines="1"
+        android:text="2021-08-02"
+        android:paddingLeft="5dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_list_player_actor"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_img"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_time"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="主演:   真武大帝"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/video_list_player_director"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_img"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_actor"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:text="导演:   真武大帝"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="10dp"
+        android:text="剧情介绍"
+        android:id="@+id/video_list_player_introduce"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_img"></TextView>
+
+    <ProgressBar
+        style="?android:textAppearanceLarge"
+        android:id="@+id/progress_round"
+        android:visibility="invisible"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/video_list_player_introduce"
+        app:layout_constraintBottom_toBottomOf="@+id/video_list_player_introduce"
+        android:layout_marginLeft="20dp"
+        ></ProgressBar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/video_list_player_blurb1"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_introduce"
+        app:layout_constraintBottom_toTopOf="@+id/video_list_player_introduce1"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/video_list_player_blurb"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:text="真武大帝又称玄天上帝、玄武大帝、佑圣真君玄天上帝、荡魔天尊、玉虚师相、九天降魔祖师、无量祖师，全称真武荡魔大帝，是中国神话传说中的北方之神，为道教神仙中赫赫有名的玉京尊神。"
+            ></TextView>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="10dp"
+        android:text="播放列表"
+        android:id="@+id/video_list_player_introduce1"
+        android:textColor="#FF9800"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_blurb1"></TextView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/video_list_player_player"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_introduce1"></androidx.recyclerview.widget.RecyclerView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/video_list_player_video"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_player"></androidx.recyclerview.widget.RecyclerView>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/video_list_player_introduce1"
+        app:layout_constraintTop_toBottomOf="@+id/video_list_player_blurb1"
+        app:layout_constraintBottom_toTopOf="@+id/video_list_player_player"
+        android:id="@+id/player_more_button"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="#FF9800"
+            android:textSize="20dp"
+            android:text="接口："></TextView>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/player_button0"
+            android:textColor="#FF9800"
+            android:maxLines="1"
+            android:textSize="20dp"
+            android:text="天"
+            android:gravity="center"
+            android:checked="true"
+            ></RadioButton>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/player_button1"
+            android:textColor="#FF9800"
+            android:textSize="20dp"
+            android:text="地"
+            android:maxLines="1"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            ></RadioButton>
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292929"
+    tools:context=".function.function_qmdj">
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/qmdj_title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:text="撒豆成兵"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFEB3B"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qmdj_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        >
+        <RadioGroup
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/qmdj_more_button"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/qmdj_button2"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:text="高德"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:checked="true"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/qmdj_button0"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:text="百度"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/qmdj_button1"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:text="腾讯"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                ></RadioButton>
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:id="@+id/qmdj_edittext"
+            android:maxLines="1"
+            android:background="@drawable/edit_text"
+            android:hint="经度,纬度"
+            ></EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/qmdj_button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:maxLines="1"
+            android:background="@drawable/butt"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="撒豆成兵"
+            ></Button>
+
+        <com.amap.api.maps.MapView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#1E1E1E"
+            android:id="@+id/qmdj_map"></com.amap.api.maps.MapView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/qmdj_list"
+            android:layout_width="match_parent"
+            android:background="#1E1E1E"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

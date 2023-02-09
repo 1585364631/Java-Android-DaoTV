@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ff00c1de</color>
+    <color name="colorPrimary">#1e222d</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="corner_color">#00FF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <string name="app_name">zxing</string>
+    <string name="code_text">请输入生成二维码的文本信息</string>
+    <string name="dencode_qrcode">扫描二维码</string>
+    <string name="encode_qrcode">生成二维码</string>
+    <string name="qrcodetext">这里显示扫描结果</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <declare-styleable name="ViewfinderView">
+        <attr format="color" name="corner_color"/>
+        <attr format="color" name="laser_color"/>
+        <attr format="color" name="frame_color"/>
+        <attr format="color" name="mask_color"/>
+        <attr format="color" name="result_point_color"/>
+        <attr format="color" name="result_color"/>
+        <attr format="color" name="label_text_color"/>
+        <attr format="string" name="label_text"/>
+        <attr format="float" name="label_text_size"/>
+    </declare-styleable>
+</resources>

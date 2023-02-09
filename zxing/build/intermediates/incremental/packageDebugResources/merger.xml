@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\DaoTV\zxing\src\main\res"/><source path="E:\DaoTV\zxing\build\generated\res\rs\debug"/><source path="E:\DaoTV\zxing\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\DaoTV\zxing\src\main\res"><file name="activity_scanner" path="E:\DaoTV\zxing\src\main\res\layout\activity_scanner.xml" qualifiers="" type="layout"/><file name="scanner_toolbar" path="E:\DaoTV\zxing\src\main\res\layout\scanner_toolbar.xml" qualifiers="" type="layout"/><file name="scanner_menu" path="E:\DaoTV\zxing\src\main\res\menu\scanner_menu.xml" qualifiers="" type="menu"/><file name="abc_ic_ab_back_mtrl_am_alpha" path="E:\DaoTV\zxing\src\main\res\mipmap-xhdpi\abc_ic_ab_back_mtrl_am_alpha.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="abc_ic_menu_moreoverflow_mtrl_alpha" path="E:\DaoTV\zxing\src\main\res\mipmap-xhdpi\abc_ic_menu_moreoverflow_mtrl_alpha.png" qualifiers="xhdpi-v4" type="mipmap"/><file name="beep" path="E:\DaoTV\zxing\src\main\res\raw\beep.ogg" qualifiers="" type="raw"/><file path="E:\DaoTV\zxing\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="ViewfinderView">
+        <attr format="color" name="corner_color"/>
+        <attr format="color" name="laser_color"/>
+        <attr format="color" name="frame_color"/>
+        <attr format="color" name="mask_color"/>
+        <attr format="color" name="result_point_color"/>
+        <attr format="color" name="result_color"/>
+        <attr format="color" name="label_text_color"/>
+        <attr format="string" name="label_text"/>
+        <attr format="float" name="label_text_size"/>
+    </declare-styleable></file><file path="E:\DaoTV\zxing\src\main\res\values\colors.xml" qualifiers=""><color name="colorPrimary">#1e222d</color><color name="colorPrimaryDark">#303F9F</color><color name="colorAccent">#ff00c1de</color><color name="viewfinder_mask">#60000000</color><color name="result_view">#B0000000</color><color name="viewfinder_frame">#90FFFFFF</color><color name="result_point_color">#C0FFFF00</color><color name="laser_color">#0F0</color><color name="corner_color">#00FF00</color></file><file path="E:\DaoTV\zxing\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="E:\DaoTV\zxing\src\main\res\values\ids.xml" qualifiers=""><item name="auto_focus" type="id"/><item name="decode" type="id"/><item name="decode_failed" type="id"/><item name="decode_succeeded" type="id"/><item name="encode_failed" type="id"/><item name="encode_succeeded" type="id"/><item name="launch_product_query" type="id"/><item name="quit" type="id"/><item name="restart_preview" type="id"/><item name="return_scan_result" type="id"/><item name="search_book_contents_failed" type="id"/><item name="search_book_contents_succeeded" type="id"/></file><file path="E:\DaoTV\zxing\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">zxing</string><string name="encode_qrcode">生成二维码</string><string name="dencode_qrcode">扫描二维码</string><string name="code_text">请输入生成二维码的文本信息</string><string name="qrcodetext">这里显示扫描结果</string></file><file path="E:\DaoTV\zxing\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style></file><file path="E:\DaoTV\zxing\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file></source><source path="E:\DaoTV\zxing\build\generated\res\rs\debug"/><source path="E:\DaoTV\zxing\build\generated\res\resValues\debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\DaoTV\zxing\src\debug\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="E:\DaoTV\zxing\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="ViewfinderView">
+        <attr format="color" name="corner_color"/>
+        <attr format="color" name="laser_color"/>
+        <attr format="color" name="frame_color"/>
+        <attr format="color" name="mask_color"/>
+        <attr format="color" name="result_point_color"/>
+        <attr format="color" name="result_color"/>
+        <attr format="color" name="label_text_color"/>
+        <attr format="string" name="label_text"/>
+        <attr format="float" name="label_text_size"/>
+    </declare-styleable></configuration></mergedItems></merger>

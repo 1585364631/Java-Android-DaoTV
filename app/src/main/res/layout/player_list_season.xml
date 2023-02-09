@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_gravity="center"
+    android:layout_height="50dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/player_season"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="#292929"
+        android:text="第一集"
+        android:maxLines="1"
+        android:textSize="15dp"
+        ></TextView>
+
+</LinearLayout>

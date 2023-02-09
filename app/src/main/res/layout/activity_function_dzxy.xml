@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292929"
+    tools:context=".function.function_dzxy">
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/dzxy_title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:text="斗转星移"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFEB3B"
+        ></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dzxy_list"
+        app:layout_constraintTop_toBottomOf="@+id/dzxy_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#1e1e1e"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

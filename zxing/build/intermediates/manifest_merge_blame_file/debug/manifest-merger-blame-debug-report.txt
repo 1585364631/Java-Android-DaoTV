@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.zxing"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->E:\DaoTV\zxing\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\DaoTV\zxing\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络权限 -->
+11-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:3:5-67
+11-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.VIBRATE" /> <!-- 震动权限 -->
+12-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:4:5-66
+12-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:4:22-63
+13    <uses-permission android:name="android.permission.CAMERA" /> <!-- 摄像头权限 -->
+13-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:5:5-65
+13-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:5:22-62
+14    <uses-feature android:name="android.hardware.camera.autofocus" />
+14-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:6:5-70
+14-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:6:19-67
+15
+16    <!-- 自动聚焦权限 -->
+17    <application
+17-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:8:5-15:19
+18        android:allowBackup="true"
+18-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:9:9-35
+19        android:label="@string/app_name"
+19-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:10:9-41
+20        android:supportsRtl="true"
+20-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:11:9-35
+21        android:theme="@style/AppTheme" >
+21-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:12:9-40
+22        <activity
+22-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:13:9-14:65
+23            android:name="com.google.zxing.activity.CaptureActivity"
+23-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:13:19-75
+24            android:theme="@style/Theme.AppCompat.NoActionBar" />
+24-->E:\DaoTV\zxing\src\main\AndroidManifest.xml:14:13-63
+25    </application>
+26
+27</manifest>

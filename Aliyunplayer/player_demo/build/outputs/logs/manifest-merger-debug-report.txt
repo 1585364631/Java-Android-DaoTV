@@ -1,0 +1,157 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+	package
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:1-58:12
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:11:5-73
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:11:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:13:22-83
+application
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:15:5-56:19
+	android:supportsRtl
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:17:9-35
+	android:allowBackup
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:16:9-35
+activity#com.aliyun.vodplayerview.activity.AliyunPlayerSkinActivity
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:18:9-23:66
+	android:screenOrientation
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:21:13-49
+	android:launchMode
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:22:13-43
+	android:configChanges
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:20:13-74
+	android:theme
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:23:13-63
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:19:13-86
+activity#com.aliyun.player.aliyunplayerbase.activity.SdkVersionActivity
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:24:9-29:66
+	android:screenOrientation
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:28:13-49
+	android:launchMode
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:27:13-43
+	android:configChanges
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:26:13-74
+	android:theme
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:29:13-63
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:25:13-90
+activity#com.aliyun.vodplayerview.activity.AliyunPlayerSettingActivity
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:30:9-35:66
+	android:screenOrientation
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:34:13-49
+	android:launchMode
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:33:13-43
+	android:configChanges
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:32:13-74
+	android:theme
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:35:13-63
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:31:13-89
+activity#com.aliyun.vodplayerview.activity.AliyunPlayerConfigActivity
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:36:9-41:66
+	android:screenOrientation
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:40:13-49
+	android:launchMode
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:39:13-43
+	android:configChanges
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:38:13-74
+	android:theme
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:41:13-63
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:37:13-88
+activity#com.aliyun.vodplayerview.activity.AliyunPlayerTypeEditActivity
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:42:9-46:65
+	android:screenOrientation
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:45:13-49
+	android:launchMode
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:44:13-43
+	android:configChanges
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:43:13-74
+	android:theme
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:46:13-63
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:42:19-96
+activity#com.aliyun.vodplayerview.activity.AliyunPlayerDownloadListActivity
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:47:9-51:65
+	android:screenOrientation
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:50:13-49
+	android:launchMode
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:49:13-43
+	android:configChanges
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:48:13-74
+	android:theme
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:51:13-63
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:47:19-100
+service#com.aliyun.vodplayerview.view.dlna.service.ClingUpnpService
+ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:53:9-55:40
+	android:exported
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml:54:13-87
+uses-sdk
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+		ADDED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml
+		INJECTED from E:\DaoTV\Aliyunplayer\player_demo\src\main\AndroidManifest.xml

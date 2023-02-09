@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#292929"
+    tools:context=".function.function_azyy">
+
+    <TextView
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/azyy_title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:text="安镇阴阳"
+        android:maxLines="1"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFEB3B"
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/azyy_title"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        >
+
+        <RadioGroup
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/azyy_more_button"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/azyy_button0"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:text="站点查询"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:checked="true"
+                ></RadioButton>
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/azyy_button1"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:text="线路查询"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                ></RadioButton>
+
+            <RadioButton
+                android:id="@+id/azyy_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="ID查询"
+                android:textColor="#FFC107"
+                android:textSize="20dp"
+                android:textStyle="bold"></RadioButton>
+        </RadioGroup>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:id="@+id/azyy_edittext"
+            android:maxLines="1"
+            android:background="@drawable/edit_text"
+            android:hint="城市名,公交站或线路"
+            ></EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/azyy_button"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:maxLines="1"
+            android:background="@drawable/butt"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="安镇阴阳"
+            ></Button>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/azyy_list"
+            android:layout_width="match_parent"
+            android:background="#1E1E1E"
+            android:layout_height="match_parent"
+            ></androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

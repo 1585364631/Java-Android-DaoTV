@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fragment.Fragment_index">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <com.youth.banner.Banner
+                    android:id="@+id/banner_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    ></com.youth.banner.Banner>
+
+                <com.google.android.material.tabs.TabLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/nav_index"
+                    android:background="#dcdcdc"
+                    android:layout_alignParentBottom="true"
+                    android:orientation="horizontal"
+                    >
+                </com.google.android.material.tabs.TabLayout>
+                
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/item_list"></androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+</FrameLayout>
